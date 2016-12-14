@@ -1,19 +1,49 @@
 <html>
-  <head>
+<head>
     <title>SOCVFinder</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- From: "Benoit Schweblin" MIT license -->
     <link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" />
     <!--<link rel="icon" type="image/x-icon" href="/favicon.ico?">-->
-  </head>
-  <body>
-    <div class="container">
-	  <h1 id="presence">Presence on GitHub</h1>
-	  <p>The <a href="http://chat.stackoverflow.com/rooms/111347/sobotics">SOBotics chat room</a> relies on a GitHub organization at: <a href="https://github.com/SOBotics">https://github.com/SOBotics</a>. Want your bot to be part of it? Ping one of the room owners and we will consider adding it to the organization.</p>
-      <h1 id="heat">Heat Detector's FAQ</h1>
-      <p>Stack Exchange has provided a <a href="http://meta.stackoverflow.com/a/327148/5292302">feed of offensive comments</a> which allows for testing and serves a base for the classifying algorithms. However, <b>do not use this as a witch hunt to find users and harass them</b>.</p>
-      <ol>
+</head>
+<body>
+<div class="container">
+    <p>The SOBotics chat room relies on a GitHub organization at: <a href="https://github.com/SOBotics">https://github.com/SOBotics</a>. We create bots to help with the moderation of Stack Overflow on all fronts, be it questions, answers, comments or even badges. Enjoy your stay at our room and while you’re here, please go through the rules at first.</p>
+    <p>General rules regarding all the bots.</p>
+    <ul>
+        <li>All the bots in the room have an associated FAQ and a README post. Please go through them before interacting with the bot.</li>
+        <li>Any post which is reported by a bot doesn’t imply that you need to take some kind of action immediately. If you are unsure please let others to reply to those reports.</li>
+        <li>At any point of time do not pile on comments on the post. Do not even leave a comment if there is no urgent or immediate need</li>
+        <li>Few of the bots have AI enabled in them. While they do provide some fun,  note that the room is not only about speaking to them.
+            <ul>
+                <li>Do not extend conversations with AI enabled bots for more than one page of the transcript.</li>
+                <li>Do not converse with the bots when someone else is working either with that bot or with any other bot. That would be perceived as noise.</li>
+                <li>If any room owner asks you to stop the conversation, please stop it immediately.</li>
+            </ul>
+        </li>
+        <li>Do not misuse the information that the bots are providing you.</li>
+    </ul>
+    <p>What to do when the room is mentioned on meta</p>
+    <ul>
+        <li>Bring that post to the attention of the room owners first and then to that user who has taken action on that post.</li>
+        <li>If there is a possibility of leaving a constructive comment, then please do so. Do not to leave snarky comments either in chat or on the post. Stick to the Be Nice policy.</li>
+        <li>Do not pile on the post, both in chat and on the post.</li>
+    </ul>
+    <p>Do you want to develop a bot?</p>
+    <ul>
+        <li>Ping any one of the room owners. They’ll provide you with assistance related to creating a chat interface, etc.</li>
+        <li>Do not create a bot account where you’ll use it as a sock puppet. Moderators visit the room frequently and can bust your bubble.</li>
+    </ul>
+    <p>Do you want to bring a bot to the room?</p>
+    <ul>
+        <li>Ping any of the room owners and ask their permission at first. Ask that particular room owner to add a pinned message that states the purpose of your bot in the room.</li>
+        <li>While all bots are welcome, it must be noted that the core principle of the room is to create bots that are helpful for moderation.</li>
+    </ul>
+
+    <h1 id="heat">Heat Detector's FAQ</h1>
+    <p>Stack Exchange has provided a <a href="http://meta.stackoverflow.com/a/327148/5292302">feed of offensive comments</a> which allows for testing and serves a base for the classifying algorithms. However, <b>do not use this as a witch hunt to find users and harass them</b>.</p>
+    <ol>
         <li>Commenting back on a SO post to a heated comment is, in general, a very bad idea. Avoid commenting in most, if not all cases. A Room Owner might decide to stop the bot if the room is involved in any bad situation (using the command <code>@Queen stop feed</code>) and kick the users involved.</li>
         <li>It is not allowed to speak about the users that posted reported comments in the chat room. We do <b>not</b> moderate users, but comments.</li>
         <li>When multiple offensive comments are exchanged or someone is going well over the top, please remember to flag the thread for moderator intervention. They are not automatically notified of the comments' deletion.</li>
@@ -21,17 +51,17 @@
         <li><code>tp socvr</code> can be used to send a notification to the <a href="http://socvr.org/">SOCVR room</a>. This should only be used when the comment is very rude and requires immediate attention to avoid flame posts and / or repeatingly offense from other users.</li>
         <li><code>fp</code> should be used for comments that were wrongly reported (i.e. they are on-topic and constructive).</li>
         <li>It is up to you to give feedback when and if you want to. You can abstain from giving one if you feel the comment is hard to classify (borderline).</li>
-		<li>As a general guideline, please don't pile on flags unless the comment really warrants it. Only one flag is enough for a moderator to take a look and act on it.</li>
-      </ol>
-	  <h1 id="bots">Who are all these bots?</h1>
-	  <p>The room is currently the home of:</p>
-	  <ul>
-	    <li><a href="http://stackoverflow.com/users/6294609/queen">Queen</a>. Registered StackApps: <a href="http://stackapps.com/questions/6910/socvfinder-providing-enjoyable-reviewing-live-duplicate-notifications-and-cher">Providing enjoyable reviewing, live duplicate notifications and cherry-picking on Stack Overflow</a> and <a href="http://stackapps.com/questions/7001/heat-detector-analysing-comments-to-find-heat">Analysing comments to find heat</a>.</li>
-	    <li><a href="http://stackoverflow.com/users/6738757/burnaki">Burnaki</a>. Registered StackApps: <a href="http://stackapps.com/q/7027/39463">Tracking progress and helping burnination efforts on Stack Exchange</a>.</li>
-	    <li><a href="http://stackoverflow.com/users/6817005/natobot">NATOBot</a>. Registered StackApps: <a href="http://stackapps.com/questions/7049/natobot-bringing-10k-moderation-to-all">Bringing 10k moderation to All</a>.</li>
-         </ul>
-      <h1 id="reading">Highly recommended reading</h1>
-      <ul>
+        <li>As a general guideline, please don't pile on flags unless the comment really warrants it. Only one flag is enough for a moderator to take a look and act on it.</li>
+    </ol>
+    <h1 id="bots">Who are all these bots?</h1>
+    <p>The room is currently the home of:</p>
+    <ul>
+        <li><a href="http://stackoverflow.com/users/6294609/queen">Queen</a>. Registered StackApps: <a href="http://stackapps.com/questions/6910/socvfinder-providing-enjoyable-reviewing-live-duplicate-notifications-and-cher">Providing enjoyable reviewing, live duplicate notifications and cherry-picking on Stack Overflow</a> and <a href="http://stackapps.com/questions/7001/heat-detector-analysing-comments-to-find-heat">Analysing comments to find heat</a>.</li>
+        <li><a href="http://stackoverflow.com/users/6738757/burnaki">Burnaki</a>. Registered StackApps: <a href="http://stackapps.com/q/7027/39463">Tracking progress and helping burnination efforts on Stack Exchange</a>.</li>
+        <li><a href="http://stackoverflow.com/users/6817005/natobot">NATOBot</a>. Registered StackApps: <a href="http://stackapps.com/questions/7049/natobot-bringing-10k-moderation-to-all">Bringing 10k moderation to All</a>.</li>
+    </ul>
+    <h1 id="reading">Highly recommended reading</h1>
+    <ul>
         <li>The <a href="http://stackoverflow.com/help/be-nice">Be Nice</a> policy.
         <li>FAQ on comments: <a href="http://meta.stackexchange.com/questions/138173/etiquette-for-posting-civil-and-informative-comments">Etiquette for posting civil and informative comments</a>
         <li><a href="http://meta.stackoverflow.com/questions/315632/what-to-do-when-users-do-not-understand-appreciate-constructive-feedback">What to do when users do not understand/appreciate constructive feedback?</a>
@@ -43,7 +73,7 @@
         <li><a href="http://meta.stackoverflow.com/questions/262791/the-rudeness-on-stack-overflow-is-too-damn-high">The rudeness on Stack Overflow is too damn high</a>
         <li><a href="http://meta.stackoverflow.com/questions/272421/are-we-getting-overly-aggressive-in-comments-towards-homework-questions-again">Are we getting overly aggressive in comments towards homework questions (again)?</a>
         <li><a href="http://meta.stackoverflow.com/questions/275689/is-this-constructive-or-am-i-just-being-rude">Is this constructive or am I just being rude?</a>
-      </ul>
-    </div>
-  </body>
+    </ul>
+</div>
+</body>
 </html>
