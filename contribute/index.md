@@ -9,50 +9,50 @@ These are some examples, but you're stepping in to an area where not only your p
 What follows is a list of our projects, and some particular areas they need help with.
 
 
-# [Guttenberg](https://github.com/SOBotics/Guttenberg) - Java
+## [Guttenberg](https://github.com/SOBotics/Guttenberg) - Java
 
-## More reasons for a post to be reported (LINQ?)
+### More reasons for a post to be reported (LINQ?)
 
 With SOBotics/Guttenberg#74, it will be easier to add reasons that trigger a report.
 It would be helpful, ff someone comes up with new reasons that could improve our results. For this, implementing LINQ could be tested. ( SOBotics/Guttenberg#73 )
 
-## Web dashboard for reported posts
+### Web dashboard for reported posts
 
 We can have a dashboard like http://diffchecker.com/ where we display the differences between posts. This would help in the plagiarism flags. 
 
-## More sources
+### More sources
 
 At the moment, Guttenberg can only compare posts to linked or related questions with the target. Getting data from GitHub or a search engine could improve the results.
 
 ----------------------------
 
-# [Natty](https://github.com/SOBotics/Natty) - Java
+## [Natty](https://github.com/SOBotics/Natty) - Java
 
-## Addition of Machine Learning techniques to detect questions posted as answers. 
+### Addition of Machine Learning techniques to detect questions posted as answers. 
 
 Over a period of 1 week, we have collected a [dataset](http://51.254.218.90:8000/vowpalData.txt) of all the new answers to old questions. Coupled with SEDE, we can learn the 
 
-## Implementation of intelligent blacklist
+### Implementation of intelligent blacklist
 
 The blacklisted words all have the same value at the moment. Getting data from Sentinel, we can find out as to how many false positives are there and find a way to autoscale the blacklist filter value. 
 
 ----------------------------
 
-# [Heat Detector](https://github.com/SOBotics/SOCVFinder) - Java
+## [Heat Detector](https://github.com/SOBotics/SOCVFinder) - Java
 
-## Improvising the NLP System
+### Improvising the NLP System
 
 We can improve the NLP system, feed and or settings of NLP. At the moment, we are using a dataset of rude flagged comments provided by Stack Exchange. We can extend this by using the data that has been collected till now. 
 
-## Improving perspective reports by providing feedback
+### Improving perspective reports by providing feedback
 
 Reports by Heat Detector because of Perspective do not take feedback as of now. We need to develop the bot to take feedback for that as well. 
 
 ------------------------
 
-# [FireAlarm](https://github.com/SOBotics/FireAlarm)/[SwiftChatSE](https://github.com/SOBotics/SwiftChatSE)
+## [FireAlarm](https://github.com/SOBotics/FireAlarm)/[SwiftChatSE](https://github.com/SOBotics/SwiftChatSE)
 
-## SQLite database
+### SQLite database
 
 We're currently migrating away from JSON to SQLite for data storage.  Here's what needs to be updated to use a database, roughly ordered by when I plan to do them:
 
@@ -66,7 +66,7 @@ We're currently migrating away from JSON to SQLite for data storage.  Here's wha
 
 - [ ] The other filters.  These filters are not static, so they'll be in the same database as everything else.
 
-## Better machine learning
+### Better machine learning
 
 As far as I know, none of us in SOBotics are machine learning experts.  If you're good with machine learning and you want to improve FireAlarm's filter, we'd be grateful!  Right now we're just using Naive Bayes; nothing too fancy or particularly precise.
 
