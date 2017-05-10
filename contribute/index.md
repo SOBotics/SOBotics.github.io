@@ -50,6 +50,28 @@ Reports by Heat Detector because of Perspective do not take feedback as of now. 
 
 ------------------------
 
+# [FireAlarm](https://github.com/SOBotics/FireAlarm)/[SwiftChatSE](https://github.com/SOBotics/SwiftChatSE)
+
+## SQLite database
+
+We're currently migrating away from JSON to SQLite for data storage.  Here's what needs to be updated to use a database, roughly ordered by when I plan to do them:
+
+- [ ] `ChatRoom` and `ChatUser`.  The `userNamed` and `userWithID` functions should query the database, and `lookupUserInformation` should save the information to the database.  Remember that users are not synchronized across rooms, so the table will also `host` and `roomID` columns.
+
+- [ ] The privilege system.  This will involve creating a [join table](https://en.wikipedia.org/wiki/Associative_entity) containing `userID` and `privilegeID`.  `privilegeID` should *probably* be a raw enum value and not a key in another table.
+
+- [ ] The report storage.  This will need a `reports` table containing `postID`, `date`, `score`, and `details`.  Storage of messages will need another table containing `reportID`, `host`, `roomID`, and `messageID`.
+
+- [ ] The naive Bayes filter.  This should probably use seperate database, since it is static and pulled from GitHub instead of being synchronized with Redunda.
+
+- [ ] The other filters.  These filters are not static, so they'll be in the same database as everything else.
+
+## Better machine learning
+
+As far as I know, none of us in SOBotics are machine learning experts.  If you're good with machine learning and you want to improve FireAlarm's filter, we'd be grateful!  Right now we're just using Naive Bayes; nothing too fancy or particularly precise.
+
+------------------------
+
 # New projects that are yet to be started
 
 ## LQP Queue Monitor
