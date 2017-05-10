@@ -1,7 +1,6 @@
 # General
 
-SOBotics tries to leverage the programing skills of community members to improve the overall user experience for visitors of Stack Overflow. 
-The main tool we are using is chat and bots (programs) that scan SO in real time to find issues that we can handle.
+SOBotics is a group of people who develop bots (programs) that help to improve the experience visitors to SO get, by improving our own and other people's ability to moderate effectively.
 
 The quantity of posts (answers, questions), comments, reviews and other actions of SO users is huge. We are right at the beginning of our implementation and need support from other community members to both refine current programms and to address issues that have not been implemented yet.
 
