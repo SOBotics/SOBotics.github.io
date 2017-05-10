@@ -50,7 +50,7 @@ Reports by Heat Detector because of Perspective do not take feedback as of now. 
 
 ------------------------
 
-## [FireAlarm](https://github.com/SOBotics/FireAlarm)/[SwiftChatSE](https://github.com/SOBotics/SwiftChatSE)
+## [FireAlarm](https://github.com/SOBotics/FireAlarm)/[SwiftChatSE](https://github.com/SOBotics/SwiftChatSE) - Swift
 
 ### SQLite database
 
