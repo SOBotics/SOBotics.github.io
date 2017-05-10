@@ -1,14 +1,16 @@
 # General
 
-SOBotics try to leverage the programing skills of community members to improve the overall user experience for visitors of Stack Overflow. 
-The main tool we are using is chat and bot's (programs) that scans SO in real time to find issues that we can handle.
+SOBotics tries to leverage the programing skills of community members to improve the overall user experience for visitors of Stack Overflow. 
+The main tool we are using is chat and bots (programs) that scan SO in real time to find issues that we can handle.
 
-The quantity of posts (answers, questions), comments, reviews and other actions of SO users is hughe, we are at the beginning of our implementation and need support from other community members to both refine current programms and to address issues that have not been implemented yet.
+The quantity of posts (answers, questions), comments, reviews and other actions of SO users is huge. We are right at the beginning of our implementation and need support from other community members to both refine current programms and to address issues that have not been implemented yet.
 
-These are some examples, but your are stepping in to an area where not only your program skill are needed but also your ideas and passion is required.
+These are some examples, but you're stepping in to an area where not only your programming skills are needed but also your ideas and passion are welcomed.
+
+What follows is a list of our projects, and some particular areas they need help with.
 
 
-# [Guttenberg](https://github.com/SOBotics/Guttenberg) - JAVA
+# [Guttenberg](https://github.com/SOBotics/Guttenberg) - Java
 
 ## More reasons for a post to be reported (LINQ?)
 
@@ -25,7 +27,7 @@ At the moment, Guttenberg can only compare posts to linked or related questions 
 
 ----------------------------
 
-# [Natty](https://github.com/SOBotics/Natty) - JAVA
+# [Natty](https://github.com/SOBotics/Natty) - Java
 
 ## Addition of Machine Learning techniques to detect questions posted as answers. 
 
@@ -37,7 +39,7 @@ The blacklisted words all have the same value at the moment. Getting data from S
 
 ----------------------------
 
-# [Heat Detector](https://github.com/SOBotics/SOCVFinder) - JAVA
+# [Heat Detector](https://github.com/SOBotics/SOCVFinder) - Java
 
 ## Improvising the NLP System
 
@@ -45,7 +47,7 @@ We can improve the NLP system, feed and or settings of NLP. At the moment, we ar
 
 ## Improving perspective reports by providing feedback
 
-Reports by Heat Detector because of Perspective do not take a feedback as of now. We need to develop the bot to take feedback for that as well. 
+Reports by Heat Detector because of Perspective do not take feedback as of now. We need to develop the bot to take feedback for that as well. 
 
 ------------------------
 
