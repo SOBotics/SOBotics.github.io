@@ -7,10 +7,6 @@ The quantity of posts (answers, questions), comments, reviews and other actions 
 
 These are some examples, but your are stepping in to an area where not only your program skill are needed but also your ideas and passion is required.
 
-## API cache
-
-We are planning to cache the results of `/posts` or `/answers`. This would save us tons of requests to the SE API and would make it possible to run multiple bots on the same IP.
-The AU-version of Natty for example could run on the same server as Guttenberg although they both use the API a lot. (multiple request per minute and bot)
 
 # [Guttenberg](https://github.com/SOBotics/Guttenberg) - JAVA
 
@@ -53,6 +49,13 @@ Reports by Heat Detector because of Perspective do not take a feedback as of now
 
 ------------------------
 
-# LQP Queue Monitor
+# New projects that are yet to be started
 
-Under development phase, jump in and help to give it a good direction.
+## LQP Queue Monitor
+
+Low Quality Posts queue is infested with robo-reviewers who have deleted many posts which turn up as bad audits. Scraping the 10k LQPQ history page would help us find these users who can be flagged accordingly. 
+
+## API cache
+
+We are planning to cache the results of `/posts` or `/answers`. This would save us tons of requests to the SE API and would make it possible to run multiple bots on the same IP.
+The AU-version of Natty for example could run on the same server as Guttenberg although they both use the API a lot. (multiple request per minute and bot)
