@@ -80,19 +80,19 @@ As far as I know, none of us in SOBotics are machine learning experts.  If you'r
 
 ## [Badger](https://github.com/SOBotics/Badger) - Java
 
-# Ability to detect the posts that have received the tumbleweed badges
+### Ability to detect the posts that have received the tumbleweed badges
 
 Tumbleweed badge API returns only the user details. Using the data present on the user, we can find out as to which of their questions received the tumbleweed badge and then show those instead. Adding batches of Tumbleweed posts is the next thought.  
 
 ------------------------
 
-# New projects that are yet to be started
+## New projects that are yet to be started
 
-## LQP Queue Monitor
+### LQP Queue Monitor
 
 Low Quality Posts queue is infested with robo-reviewers who have deleted many posts which turn up as bad audits. We have start to develop a bot in java, but time is running short are you ready to continue this development.
 
-## API cache
+### API cache
 
 We are planning to cache the results of `/posts` or `/answers`. This would save us tons of requests to the SE API and would make it possible to run multiple bots on the same IP.
 The AU-version of Natty for example could run on the same server as Guttenberg although they both use the API a lot. (multiple request per minute and bot)
