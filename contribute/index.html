@@ -1,0 +1,65 @@
+
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Contribute to SOBotics</title><link rel="stylesheet" href="../sobotics.css">
+<link rel="icon" href="https://avatars1.githubusercontent.com/u/21141173" /><style></style></head><body id="preview">
+<h1><a id="General_0"></a>General</h1>
+<p>SOBotics is a group of people who develop bots (programs) that help to improve the experience visitors to SO get, by improving our own and other people’s ability to moderate effectively.</p>
+<p>The quantity of posts (answers, questions), comments, reviews and other actions of SO users is huge. We are right at the beginning of our implementation and need support from other community members to both refine current programms and to address issues that have not been implemented yet.</p>
+<p>These are some examples, but you’re stepping in to an area where not only your programming skills are needed but also your ideas and passion are welcomed.</p>
+<p>What follows is a list of our projects, and some particular areas they need help with. If you need additional information don’t hesitate to join us in <a href="https://chat.stackoverflow.com/rooms/111347/sobotics">SOBotics chat room</a>, members from all over the world are active almost 24/7.</p>
+<h2><a id="GuttenberghttpsgithubcomSOBoticsGuttenberg__Java_11"></a><a href="https://github.com/SOBotics/Guttenberg">Guttenberg</a> - Java</h2>
+<h3><a id="More_reasons_for_a_post_to_be_reported_LINQ_13"></a>More reasons for a post to be reported (LINQ?)</h3>
+<p>With SOBotics/Guttenberg#74, it will be easier to add reasons that trigger a report.<br>
+It would be helpful, ff someone comes up with new reasons that could improve our results. For this, implementing LINQ could be tested. ( SOBotics/Guttenberg#73 )</p>
+<h3><a id="Web_dashboard_for_reported_posts_18"></a>Web dashboard for reported posts</h3>
+<p>We can have a dashboard like <a href="http://diffchecker.com/">http://diffchecker.com/</a> where we display the differences between posts. This would help in the plagiarism flags.</p>
+<h3><a id="More_sources_22"></a>More sources</h3>
+<p>At the moment, Guttenberg can only compare posts to linked or related questions with the target. Getting data from GitHub or a search engine could improve the results.</p>
+<hr>
+<h2><a id="NattyhttpsgithubcomSOBoticsNatty__Java_28"></a><a href="https://github.com/SOBotics/Natty">Natty</a> - Java</h2>
+<h3><a id="Addition_of_Machine_Learning_techniques_to_detect_questions_posted_as_answers_30"></a>Addition of Machine Learning techniques to detect questions posted as answers.</h3>
+<p>Over a period of 1 week, we have collected a <a href="http://51.254.218.90:8000/vowpalData.txt">dataset</a> of all the new answers to old questions. Coupled with SEDE, we can discover a machine learning approach to detect questions posted as answers instead of the present heuristics based approach.</p>
+<h3><a id="Implementation_of_intelligent_blacklist_34"></a>Implementation of intelligent blacklist</h3>
+<p>The blacklisted words all have the same value at the moment. Getting data from Sentinel, we can find out as to how many false positives are there and find a way to autoscale the blacklist filter value.</p>
+<hr>
+<h2><a id="Heat_DetectorhttpsgithubcomSOBoticsSOCVFinder__Java_40"></a><a href="https://github.com/SOBotics/SOCVFinder">Heat Detector</a> - Java</h2>
+<h3><a id="Improving_the_NLP_System_42"></a>Improving the NLP System</h3>
+<p>Are you good at machine learning?, do you have ideas on how to improve our algorithms and or feed?.</p>
+<p>The NLP system needs improvement both with integrating new data and improving parameters on the machine learning algorithm.</p>
+<h3><a id="Improving_perspective_reports_by_providing_feedback_49"></a>Improving perspective reports by providing feedback</h3>
+<p><a href="https://www.perspectiveapi.com/">Perspective</a>  has given us an api key to test, we are currently reporting hits that are above 0.5. However we have a fairly high amount of “false positive”, mostly due to sentences as “I’m an idiot”. To solve this problem there is the need to implement the feed-back system and probably come up with some ideas on how to consider also our feed.</p>
+<hr>
+<h2><a id="FireAlarmhttpsgithubcomSOBoticsFireAlarmSwiftChatSEhttpsgithubcomSOBoticsSwiftChatSE__Swift_55"></a><a href="https://github.com/SOBotics/FireAlarm">FireAlarm</a>/<a href="https://github.com/SOBotics/SwiftChatSE">SwiftChatSE</a> - Swift</h2>
+<h3><a id="SQLite_database_57"></a>SQLite database</h3>
+<p>We’re currently migrating away from JSON to SQLite for data storage.  Here’s what needs to be updated to use a database, roughly ordered by when I plan to do them:</p>
+<ul>
+<li>
+<p><code>ChatRoom</code> and <code>ChatUser</code>.  The <code>userNamed</code> and <code>userWithID</code> functions should query the database, and <code>lookupUserInformation</code> should save the information to the database.  Remember that users are not synchronized across rooms, so the table will also <code>host</code> and <code>roomID</code> columns.</p>
+</li>
+<li>
+<p>The privilege system.  This will involve creating a <a href="https://en.wikipedia.org/wiki/Associative_entity">join table</a> containing <code>userID</code> and <code>privilegeID</code>.  <code>privilegeID</code> should <em>probably</em> be a raw enum value and not a key in another table.</p>
+</li>
+<li>
+<p>The report storage.  This will need a <code>reports</code> table containing <code>postID</code>, <code>date</code>, <code>score</code>, and <code>details</code>.  Storage of messages will need another table containing <code>reportID</code>, <code>host</code>, <code>roomID</code>, and <code>messageID</code>.</p>
+</li>
+<li>
+<p>The naive Bayes filter.  This should probably use seperate database, since it is static and pulled from GitHub instead of being synchronized with Redunda.</p>
+</li>
+<li>
+<p>The other filters.  These filters are not static, so they’ll be in the same database as everything else.</p>
+</li>
+</ul>
+<h3><a id="Better_machine_learning_71"></a>Better machine learning</h3>
+<p>As far as I know, none of us in SOBotics are machine learning experts.  If you’re good with machine learning and you want to improve FireAlarm’s filter, we’d be grateful!  Right now we’re just using Naive Bayes; nothing too fancy or particularly precise.</p>
+<hr>
+<h2><a id="BadgerhttpsgithubcomSOBoticsBadger__Java_77"></a><a href="https://github.com/SOBotics/Badger">Badger</a> - Java</h2>
+<h3><a id="Ability_to_detect_the_posts_that_have_received_the_tumbleweed_badges_79"></a>Ability to detect the posts that have received the tumbleweed badges</h3>
+<p>Tumbleweed badge API returns only the user details. Using the data present on the user, we can find out as to which of their questions received the tumbleweed badge and then show those instead. Adding batches of Tumbleweed posts is the next thought.</p>
+<hr>
+<h2><a id="New_projects_that_are_yet_to_be_started_85"></a>New projects that are yet to be started</h2>
+<h3><a id="LQP_Queue_Monitor_87"></a>LQP Queue Monitor</h3>
+<p>Low Quality Posts queue is infested with robo-reviewers who have deleted many posts which turn up as bad audits. We have start to develop a bot in java, but time is running short are you ready to continue this development.</p>
+<h3><a id="API_cache_91"></a>API cache</h3>
+<p>We are planning to cache the results of <code>/posts</code> or <code>/answers</code>. This would save us tons of requests to the SE API and would make it possible to run multiple bots on the same IP.<br>
+The AU-version of Natty for example could run on the same server as Guttenberg although they both use the API a lot. (multiple request per minute and bot)</p>
+
+</body></html>
