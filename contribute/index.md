@@ -86,13 +86,17 @@ Tumbleweed badge API returns only the user details. Using the data present on th
 
 ------------------------
 
+## [apicache](https://github.com/SOBotics/apicache) - Python/Flask/Redis
+
+APICache is a project that aims to provide a centralised server for getting cached responses from the Stack Exchange API. This saves on bots' quotas, as responses are cached and made available to everyone, no matter who requested them originally.
+
+### General development effort
+APICache is right at the start of development, and needs developers to help get it to a workable stage.
+
+------------------------
+
 ## New projects that are yet to be started
 
 ### LQP Queue Monitor
 
 Low Quality Posts queue is infested with robo-reviewers who have deleted many posts which turn up as bad audits. We have start to develop a bot in java, but time is running short are you ready to continue this development.
-
-### API cache
-
-We are planning to cache the results of `/posts` or `/answers`. This would save us tons of requests to the SE API and would make it possible to run multiple bots on the same IP.
-The AU-version of Natty for example could run on the same server as Guttenberg although they both use the API a lot. (multiple request per minute and bot)
