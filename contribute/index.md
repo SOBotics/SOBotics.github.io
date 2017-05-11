@@ -6,7 +6,7 @@ The quantity of posts (answers, questions), comments, reviews and other actions 
 
 These are some examples, but you're stepping in to an area where not only your programming skills are needed but also your ideas and passion are welcomed.
 
-What follows is a list of our projects, and some particular areas they need help with.
+What follows is a list of our projects, and some particular areas they need help with. If you need additional information don't hesitate to join us in [SOBotics chat room](https://chat.stackoverflow.com/rooms/111347/sobotics), members from all over the world are activate almost 24/7.
 
 
 ## [Guttenberg](https://github.com/SOBotics/Guttenberg) - Java
@@ -40,13 +40,16 @@ The blacklisted words all have the same value at the moment. Getting data from S
 
 ## [Heat Detector](https://github.com/SOBotics/SOCVFinder) - Java
 
-### Improvising the NLP System
+### Improving the NLP System
 
-We can improve the NLP system, feed and or settings of NLP. At the moment, we are using a dataset of rude flagged comments provided by Stack Exchange. We can extend this by using the data that has been collected till now. 
+Are you good at machine learning?, do you have ideas on how to improve our algorithms and or feed?. 
+
+The NLP system needs improvement both with integrating new data and improving parameters on the machine learning algorithm.
+
 
 ### Improving perspective reports by providing feedback
 
-Reports by Heat Detector because of Perspective do not take feedback as of now. We need to develop the bot to take feedback for that as well. 
+[Perspective](https://www.perspectiveapi.com/)  has given us an api key to test, we are currently reporting hits that are above 0.5. However we have a fairly high amount of "false positive", mostly due to sentences as "I'm an idiot". To solve this problem there is the need to implement the feed-back system and probably come up with some ideas on how to consider also our feed.
 
 ------------------------
 
@@ -76,7 +79,7 @@ As far as I know, none of us in SOBotics are machine learning experts.  If you'r
 
 ## LQP Queue Monitor
 
-Low Quality Posts queue is infested with robo-reviewers who have deleted many posts which turn up as bad audits. Scraping the 10k LQPQ history page would help us find these users who can be flagged accordingly. 
+Low Quality Posts queue is infested with robo-reviewers who have deleted many posts which turn up as bad audits. We have start to develop a bot in java, but time is running short are you ready to continue this development.
 
 ## API cache
 
