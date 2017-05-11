@@ -1,4 +1,6 @@
-# General
+# Contribute to SOBotics
+
+
 
 SOBotics is a group of people who develop bots (programs) that help to improve the experience visitors to SO get, by improving our own and other people's ability to moderate effectively.
 
@@ -8,6 +10,7 @@ These are some examples, but you're stepping in to an area where not only your p
 
 What follows is a list of our projects, and some particular areas they need help with. If you need additional information don't hesitate to join us in [SOBotics chat room](https://chat.stackoverflow.com/rooms/111347/sobotics), members from all over the world are active almost 24/7.
 
+----------
 
 ## [Guttenberg](https://github.com/SOBotics/Guttenberg) - Java
 
