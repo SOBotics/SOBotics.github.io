@@ -6,7 +6,7 @@ The quantity of posts (answers, questions), comments, reviews and other actions 
 
 These are some examples, but you're stepping in to an area where not only your programming skills are needed but also your ideas and passion are welcomed.
 
-What follows is a list of our projects, and some particular areas they need help with. If you need additional information don't hesitate to join us in [SOBotics chat room](https://chat.stackoverflow.com/rooms/111347/sobotics), members from all over the world are activate almost 24/7.
+What follows is a list of our projects, and some particular areas they need help with. If you need additional information don't hesitate to join us in [SOBotics chat room](https://chat.stackoverflow.com/rooms/111347/sobotics), members from all over the world are active almost 24/7.
 
 
 ## [Guttenberg](https://github.com/SOBotics/Guttenberg) - Java
@@ -30,7 +30,7 @@ At the moment, Guttenberg can only compare posts to linked or related questions 
 
 ### Addition of Machine Learning techniques to detect questions posted as answers. 
 
-Over a period of 1 week, we have collected a [dataset](http://51.254.218.90:8000/vowpalData.txt) of all the new answers to old questions. Coupled with SEDE, we can learn the 
+Over a period of 1 week, we have collected a [dataset](http://51.254.218.90:8000/vowpalData.txt) of all the new answers to old questions. Coupled with SEDE, we can discover a machine learning approach to detect questions posted as answers instead of the present heuristics based approach. 
 
 ### Implementation of intelligent blacklist
 
@@ -72,6 +72,14 @@ We're currently migrating away from JSON to SQLite for data storage.  Here's wha
 ### Better machine learning
 
 As far as I know, none of us in SOBotics are machine learning experts.  If you're good with machine learning and you want to improve FireAlarm's filter, we'd be grateful!  Right now we're just using Naive Bayes; nothing too fancy or particularly precise.
+
+------------------------
+
+## [Badger](https://github.com/SOBotics/Badger) - Java
+
+# Ability to detect the posts that have received the tumbleweed badges
+
+Tumbleweed badge API returns only the user details. Using the data present on the user, we can find out as to which of their questions received the tumbleweed badge and then show those instead. Adding batches of Tumbleweed posts is the next thought.  
 
 ------------------------
 
