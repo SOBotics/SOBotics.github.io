@@ -8,7 +8,7 @@ The quantity of posts (answers, questions), comments, reviews and other actions 
 
 These are some examples, but you're stepping in to an area where not only your programming skills are needed but also your ideas and passion are welcomed.
 
-What follows is a list of our projects, and some particular areas they need help with. If you need additional information don't hesitate to join us in [SOBotics chat room](https://chat.stackoverflow.com/rooms/111347/sobotics), members from all over the world are active almost 24/7.
+What follows is a list of our projects, and some particular areas they need help with. If you need additional information don't hesitate to join us in [***SOBotics chat room***](https://chat.stackoverflow.com/rooms/111347/sobotics), members from all over the world are active almost 24/7.
 
 ----------
 
@@ -86,12 +86,20 @@ Tumbleweed badge API returns only the user details. Using the data present on th
 
 ------------------------
 
+## Newly started projects
+
 ## [apicache](https://github.com/SOBotics/apicache) - Python/Flask/Redis
 
 APICache is a project that aims to provide a centralised server for getting cached responses from the Stack Exchange API. This saves on bots' quotas, as responses are cached and made available to everyone, no matter who requested them originally.
 
 ### General development effort
 APICache is right at the start of development, and needs developers to help get it to a workable stage.
+
+------------------------
+
+## [Citation Detector](https://github.com/SOBotics/Citation-Detector) - Java
+
+Citation Detector is a new project that aims to report those posts that have comments asking for users to cite appropriate sources on [Hinduism Stack Exchange](https://hinduism.stackexchange.com). (Based on [a meta post asking for the same](https://hinduism.meta.stackexchange.com/q/803/277))
 
 ------------------------
 
