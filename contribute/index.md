@@ -62,15 +62,13 @@ The NLP system needs improvement both with integrating new data and improving pa
 
 We're currently migrating away from JSON to SQLite for data storage.  Here's what needs to be updated to use a database, roughly ordered by when I plan to do them:
 
-- [ ] `ChatRoom` and `ChatUser`.  The `userNamed` and `userWithID` functions should query the database, and `lookupUserInformation` should save the information to the database.  Remember that users are not synchronized across rooms, so the table will also `host` and `roomID` columns.
+- `ChatRoom` and `ChatUser`.  The `userNamed` and `userWithID` functions should query the database, and `lookupUserInformation` should save the information to the database.  Remember that users are not synchronized across rooms, so the table will also `host` and `roomID` columns.
 
-- [ ] The privilege system.  This will involve creating a [join table](https://en.wikipedia.org/wiki/Associative_entity) containing `userID` and `privilegeID`.  `privilegeID` should *probably* be a raw enum value and not a key in another table.
+- The privilege system.  This will involve creating a [join table](https://en.wikipedia.org/wiki/Associative_entity) containing `userID` and `privilegeID`.  `privilegeID` should *probably* be a raw enum value and not a key in another table.
 
-- [ ] The report storage.  This will need a `reports` table containing `postID`, `date`, `score`, and `details`.  Storage of messages will need another table containing `reportID`, `host`, `roomID`, and `messageID`.
+- The report storage.  This will need a `reports` table containing `postID`, `date`, `score`, and `details`.  Storage of messages will need another table containing `reportID`, `host`, `roomID`, and `messageID`.
 
-- [ ] The naive Bayes filter.  This should probably use seperate database, since it is static and pulled from GitHub instead of being synchronized with Redunda.
-
-- [ ] The other filters.  These filters are not static, so they'll be in the same database as everything else.
+- The non-Bayesian filters.  These filters are not static, so they'll be in the same database as everything else.
 
 ### Better machine learning
 
