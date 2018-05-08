@@ -4,7 +4,7 @@ name: SOBotics Blog
 description: A weird place
 
 # url is currently only used only for the RSS feed in feed.xml
-url: https://sobotics.github.io
+url: http://blog.sobotics.org
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
