@@ -6,19 +6,19 @@ comments: false
 ---
 
 
-On Stack Exchange most of the moderation bots, if not all, report to a chat room. One limitation of using chat is that 
-we need a dedicated bot account with at least 20 reputation points, so that it can post its reports to chat. This is one place 
-where we would be coming very close to performing illegal activities, as we are creating a separate account in addition to our main account. 
+Most, if not all, of the moderation bots maintained on Stack Exchange (by SOBotics and others) report to a chat room. Unfortunately, one limitation of using chat is that 
+the owner of the bot needs a dedicated bot account with at least 20 reputation points, on which the bot post its reports into chat. This is one place 
+where the owner of the bot would be coming very close to performing activities against the Stack Exchange rules, as they are creating a new account separate from their main account.
 
-### Is creating multiple accounts legal? 
+### Is creating multiple accounts legal?
 
-Fortunately, Stack Exchange has been kind enough to allow us create a different account legally, given that we follow certain rules. 
-The official rules for creating a new account for a bot are [enumerated in this meta post.][1] From there:
+Fortunately, Stack Exchange has been kind enough to allow us create multiple accounts legally, as long we follow certain rules. 
+The official rules for creating a new account for a bot are [detailed in this meta post.][1] From there:
 
 > So long as there's no voting or other dubious-looking stuff (like one account asking a question and another immediately 
 answering it) going on between the accounts, it's really not a big deal.
 
-You are allowed to [create an additional account for a bot, as long as you adhere to the policy of having multiple accounts][2]:
+You are allowed to [create an additional account for a bot, as long as you adhere to the policies for having multiple accounts][2]:
 
 > It is not a problem to have multiple accounts, as long as they aren't voting for each other and doing other sockpuppet-y things.
 
@@ -45,8 +45,8 @@ Two options for getting the required reputation for your bot are:
 suggested edit reviews yourself**. Namely: 
 
    1. Suggesting an edit on your own post and immediately accepting it. 
-   2. Clicking "improve edit" on a suggested edit by your bot to short circuit the review process.
-   3. Reviewing "approve" on a edit suggested by your bot. 
+   2. Clicking "Improve Edit" on an edit suggested by your bot to circumvent the review process.
+   3. Reviewing "Approve" on a edit suggested by your bot. 
 
 2. Add an answer/question and wait until it gets sufficient votes. Here as well, **do not interact with the post in any way**, such as:
 
@@ -67,12 +67,12 @@ After creating a usable bot account, remember to follow the directions presented
 
 Your bot is now ready to roll. Keep a few things in mind: 
 
-1. Do not use the bot to star others messages. 
+1. Do not use the bot to star other people's - or your own - messages. 
 2. Do not use the bot to perform sockpuppet-y activity. 
-3. Adhere to the Be Nice policy enforced in chat. 
+3. Adhere to the Be Nice policy enforced in chat, even when not posting from your main account. 
 
 The bot account is no different from a normal user account, except that there is no human behind the screens who's sending those messages. 
-All the rules which apply to any normal user, also apply to the bot account. 
+All rules that apply to a normal user also apply to the bot account. 
 
   [1]: https://meta.stackexchange.com/questions/148914/officially-sanctioned-second-account
   [2]: https://meta.stackexchange.com/questions/35593/whats-the-policy-about-having-multiple-user-accounts
