@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Creating a bot account on Stack Exchange"
-date: 
+date: 2018-05-10
 comments: false
 ---
 
