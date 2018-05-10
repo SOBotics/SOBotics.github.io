@@ -6,9 +6,9 @@ comments: false
 ---
 
 
-Most of the moderation bots, if not all, on Stack Exchange report to a chat room. One limitation of using chat is that 
-we would need a dedicated bot account with at least 20 reputation points, which would post its reports into chat. This is one place 
-where we would be coming very close to performing illegal activities, as we are creating a separate account, apart from ours. 
+On Stack Exchange most of the moderation bots, if not all, report to a chat room. One limitation of using chat is that 
+we need a dedicated bot account with at least 20 reputation points, so that it can post its reports to chat. This is one place 
+where we would be coming very close to performing illegal activities, as we are creating a separate account in addition to our main account. 
 
 ### Is creating multiple accounts legal? 
 
@@ -33,7 +33,7 @@ Activities which are [considered "sockpuppet-y" include][3]:
 
 ### How do I earn reputation for the bot to participate in chatrooms? 
 
-For an user to be able to speak in chat, they need 20 reputation. The proper way [to earn this 20 reputation is listed here][4]. 
+For a user to be able to speak in chat, they need 20 reputation. The proper way [to earn this 20 reputation is listed here][4]. 
 
 > If you want a sockpuppet to have reputation, then earn it. That's what I do with my sockpuppets, and I certainly have
  a lot more opportunities to abuse the system than y'all do. If you can't play it straight while creating your bot, 
@@ -44,9 +44,9 @@ Two options for getting the required reputation for your bot are:
 1. Suggest 10 edits, and get all of them approved through the suggested edit queue. **Do not interact with any of these 
 suggested edit reviews yourself**. Namely: 
 
-   1. suggesting an edit on your own post and immediately accepting it. 
-   2. clicking "improve edit" on a suggested edit by your bot to short circuit the review process.
-   3. reviewing "approve" on a edit suggested by your bot. 
+   1. Suggesting an edit on your own post and immediately accepting it. 
+   2. Clicking "improve edit" on a suggested edit by your bot to short circuit the review process.
+   3. Reviewing "approve" on a edit suggested by your bot. 
 
 2. Add an answer/question and wait until it gets sufficient votes. Here as well, **do not interact with the post in any way**, such as:
 
@@ -61,9 +61,9 @@ is preferred as it can speak on both chat.stackoverflow.com server and chat.stac
 
 ### What do I do after creating a bot account and gaining 20 reputation? 
 
-After creating an usable bot account, remember to follow the directions presented in the above linked meta post:
+After creating a usable bot account, remember to follow the directions presented in the above linked meta post:
 
-> add a note in the "About me" section describing the purpose of the account. 
+> Add a note in the "About me" section describing the purpose of the account. 
 
 Your bot is now ready to roll. Keep a few things in mind: 
 
@@ -72,7 +72,7 @@ Your bot is now ready to roll. Keep a few things in mind:
 3. Adhere to the Be Nice policy enforced in chat. 
 
 The bot account is no different from a normal user account, except that there is no human behind the screens who's sending those messages. 
-All the rules which are applied to any normal user, also applies to the bot account. 
+All the rules which apply to any normal user, also apply to the bot account. 
 
   [1]: https://meta.stackexchange.com/questions/148914/officially-sanctioned-second-account
   [2]: https://meta.stackexchange.com/questions/35593/whats-the-policy-about-having-multiple-user-accounts
