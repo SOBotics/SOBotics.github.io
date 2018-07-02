@@ -7,7 +7,7 @@ comments: false
 
 # Higgs
 
-Higgs is a generic dashboard for viewing and providing feedback to bots found in SOBotics. It originated alongside [Boson](https://github.com/SOBotics/Boson) - a framework for creating SOBotics bots. This blog post will run you through how to setup your own bot, and integrate it with Higgs.
+Higgs is a generic dashboard for viewing and providing feedback to bots found in SOBotics. It originated alongside [Boson](https://github.com/SOBotics/Boson) - a framework for creating SOBotics bots. This blog post will run you through the process of setting up your own bot and integrating it with Higgs.
 
 ## Setting up a dashboard
 
@@ -17,7 +17,7 @@ Bot setup is now entirely self-service! If you're not already a bot owner, you'l
 
    [![enter image description here][1]][1]
 
-2. Clicking 'Bots' will bring you to the bot management page. Here, you'll see all bots owned by yourself. Admins are able to see and edit every bot. From here, you're also able to create a new bot:
+2. Clicking 'Bots' will bring you to the bot management page. Here, you'll see all bots that you own. Admins are able to see and edit every bot. From here, you're also able to create a new bot:
 
     [![enter image description here][2]][2]
 
@@ -36,23 +36,23 @@ Bot setup is now entirely self-service! If you're not already a bot owner, you'l
     - A link to the homepage of the bot.
     - A link to the bot's logo.
     - A favicon. This will change the page's favicon when viewing one of your bots reports. Must point to a URL.
-    - Tab Title. This will change the page's title when viewing one of your bots
+    - Tab Title. This will change the page's title when viewing one of your bots.
 
-2. Once you've submitted your bot, you'll need to setup the feedback types. You can manage this from the `/admin/bots` page as shown above.
+2. Once you've submitted your bot, you'll need to set up the feedback types. You can manage this from the `/admin/bots` page (as shown above).
 
 3. You'll be presented with the following page:
 
     [![enter image description here][4]][4]
 
     - Name: The name of the feedback. This is what will be rendered on buttons for reviewers.
-    - Colour: A browser-supported colour string. Hex or named colours are supported. Styles the colour of the feedback button, as well as the icon
+    - Colour: A browser-supported colour string. Hex or named colours are supported. Styles the colour of the feedback button, as well as the icon.
     - Icon: An icon to represent already cast feedback. It's simply a string, and can technically be anything, but we recommend using a Unicode character.
-    - Actionable: Whether or not this type of feedback is counted when putting reports into the review queue
+    - Actionable: Whether or not this type of feedback is counted when putting reports into the review queue.
     - Enabled: Whether or not this type of feedback is allowed to be cast by a review.
 
 ## Getting started in code
 
-Higgs uses [swagger](https://swagger.io/) to document its API. A benefit of this is that boilerplate API code can be [automatically generated](https://github.com/swagger-api/swagger-codegen).  Here's an example [script](https://github.com/SOBotics/Higgs/blob/master/GenerateUIAPI.bat) being used to generate the API structure for Higgs' frontend.
+Higgs uses [swagger](https://swagger.io/) to document its API. A benefit of this is that the boilerplate API code can be [automatically generated](https://github.com/swagger-api/swagger-codegen).  Here's an example [script](https://github.com/SOBotics/Higgs/blob/master/GenerateUIAPI.bat) being used to generate the API structure for Higgs' frontend.
 
 Note that the above is entirely optional. Generating the boilerplate is a nice-to-have, and not required. If you'd like to implement the API calls yourself, you can see the available endpoints [here](http://45.77.238.226/swagger/), as well as what security is required for each call.
 
