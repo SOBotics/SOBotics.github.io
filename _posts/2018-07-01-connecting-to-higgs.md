@@ -5,7 +5,11 @@ date: 2018-07-01
 comments: false
 ---
 
-# Higgs setup
+# Higgs
+
+Higgs is a generic dashboard for viewing and providing feedback to bots found in SOBotics. It originated along side [Boson](https://github.com/SOBotics/Boson) - a framework for creating SOBotics bots. This blog post will run you through how to setup your own bot, and integrate it with Higgs.
+
+## Setting up a dashboard
 
 Bot setup is now entirely self-service! If you're not already a bot owner, you'll need to ask a Higgs admin to grant your account bot privileges. Once that's done, you'll be able to create a new bot yourself.
 
@@ -46,7 +50,7 @@ Bot setup is now entirely self-service! If you're not already a bot owner, you'l
     - Actionable: Whether or not this type of feedback is counted when putting reports into the review queue
     - Enabled: Whether or not this type of feedback is allowed to be cast by a review.
 
-# Code setup
+## Getting started in code
 
 Higgs uses [swagger](https://swagger.io/) to document its API. A benefit of this is that boilerplate API code can be [automatically generated](https://github.com/swagger-api/swagger-codegen).  Here's an example [script](https://github.com/SOBotics/Higgs/blob/master/GenerateUIAPI.bat) being used to generate the API structure for Higg's frontend.
 
