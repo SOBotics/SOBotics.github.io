@@ -7,7 +7,7 @@ comments: false
 
 # Higgs
 
-Higgs is a generic dashboard for viewing and providing feedback to bots found in SOBotics. It originated along side [Boson](https://github.com/SOBotics/Boson) - a framework for creating SOBotics bots. This blog post will run you through how to setup your own bot, and integrate it with Higgs.
+Higgs is a generic dashboard for viewing and providing feedback to bots found in SOBotics. It originated alongside [Boson](https://github.com/SOBotics/Boson) - a framework for creating SOBotics bots. This blog post will run you through how to setup your own bot, and integrate it with Higgs.
 
 ## Setting up a dashboard
 
@@ -46,13 +46,13 @@ Bot setup is now entirely self-service! If you're not already a bot owner, you'l
 
     - Name: The name of the feedback. This is what will be rendered on buttons for reviewers.
     - Colour: A browser-supported colour string. Hex or named colours are supported. Styles the colour of the feedback button, as well as the icon
-    - Icon: An icon to represent already cast feedback. It's simply a string, and can technically be anything, but we recommend using a unicode character.
+    - Icon: An icon to represent already cast feedback. It's simply a string, and can technically be anything, but we recommend using a Unicode character.
     - Actionable: Whether or not this type of feedback is counted when putting reports into the review queue
     - Enabled: Whether or not this type of feedback is allowed to be cast by a review.
 
 ## Getting started in code
 
-Higgs uses [swagger](https://swagger.io/) to document its API. A benefit of this is that boilerplate API code can be [automatically generated](https://github.com/swagger-api/swagger-codegen).  Here's an example [script](https://github.com/SOBotics/Higgs/blob/master/GenerateUIAPI.bat) being used to generate the API structure for Higg's frontend.
+Higgs uses [swagger](https://swagger.io/) to document its API. A benefit of this is that boilerplate API code can be [automatically generated](https://github.com/swagger-api/swagger-codegen).  Here's an example [script](https://github.com/SOBotics/Higgs/blob/master/GenerateUIAPI.bat) being used to generate the API structure for Higgs' frontend.
 
 Note that the above is entirely optional. Generating the boilerplate is a nice-to-have, and not required. If you'd like to implement the API calls yourself, you can see the available endpoints [here](http://45.77.238.226/swagger/), as well as what security is required for each call.
 
