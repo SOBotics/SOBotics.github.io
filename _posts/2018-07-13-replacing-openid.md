@@ -54,7 +54,7 @@ meta.stackexchange.com has the same login as stackoverflow.com and the other sit
 To implement this, we just needed to send steps 1 and 2 to meta.SE and step 3 to stackexchange.com.
 
 
-### What happens if the user does not have an account on the site he tries to use
+### What happens if the user does not have an account on the site they try to use
 
 With some accounts, our code just didn't work on chat.stackexchange.com. The problem was that since we now take a little detour, the user has to have an account on meta.SE. My bot didn't have one.
 Creating an account is quite easy. The `POST`-request in step 2 will return a message and a button, if the user does not have an account yet. If we don't click that button, the user won't be logged in.
