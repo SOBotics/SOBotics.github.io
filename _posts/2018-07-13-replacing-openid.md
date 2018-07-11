@@ -8,7 +8,7 @@ Let's have a look at our Java library chatexchange, to show you how the new logi
 We'll need to store some of the cookies we receive when logging in. In our case, we're using a `HashMap<String, String>`. We pass it to our own `HttpClient`. If you implement this on your own, make sure you store all the cookies and send them along with your requests!
 
 ## Step 1: Get the login form
-Every site in the Stack Exchange network (except stackexchange.com itself. We'll discuss that later) should now have this new login form located at `/users/login`:
+Every site in the Stack Exchange network (except stackexchange.com itself - we'll discuss that later) should now have this new login form located at `/users/login`:
 
 ![login screen](https://camo.githubusercontent.com/ddfe5031e6b1ab0a95c2f98193cb1e215f5b09b7/68747470733a2f2f692e737461636b2e696d6775722e636f6d2f78707a6b4b2e706e67)
 
@@ -16,7 +16,7 @@ Along with the fields for email and password, it has a hidden field called `fkey
 We need to post this key along with the credentials. That's why we have to do a `GET` request to `/users/login` first and read the `fkey`:
 
 ```java
-Response response = httpClient.get("https://"+host+"/users/login", cookies);
+Response response = httpClient.get("https://" + host + "/users/login", cookies);
 String fkey = response.parse().select("input[name='fkey']").val();
 ```
 
@@ -25,17 +25,17 @@ String fkey = response.parse().select("input[name='fkey']").val();
 Now we just need to post the credentials and the `fkey` to `/users/login`:
 
 ```java
-response = httpClient.post("https://"+host+"/users/login", cookies, "email", email, "password", password, "fkey", fkey);
+response = httpClient.post("https://" + host + "/users/login", cookies, "email", email, "password", password, "fkey", fkey);
 ```
 
 
-## Step 3: Check, if you're now logged in
+## Step 3: Check if you're now logged in
 
-To check if the login worked, we're sending a `GET`-request to `/users/current`, which redirects to you own profile. If we can find a HTML-element with the class `js-inbox-button` in the response, we're logged in.
+To check if the login worked, we're sending a `GET`-request to `/users/current`, which redirects to you own profile. If we can find a HTML element with the class `js-inbox-button` in the response, we're logged in.
 Make sure, you send the cookies you've previously saved.
 
 ```java
-Response checkResponse = httpClient.get("https://"+host+"/users/current", cookies);
+Response checkResponse = httpClient.get("https://" + host + "/users/current", cookies);
 if (checkResponse.parse().getElementsByClass("js-inbox-button").first() == null) {
 	throw new IllegalStateException("Unable to login to Stack Exchange.");
 }
