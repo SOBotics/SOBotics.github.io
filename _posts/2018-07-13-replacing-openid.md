@@ -1,4 +1,9 @@
-# Stack Exchange will remove OpenID - What can we do?
+---
+layout: post
+title: "Stack Exchange will remove OpenID - What can we do?"
+date: 2018-07-13
+comments: true
+---
 
 As you might have heard, [Stack Exchange will remove OpenID on July 25](https://meta.stackexchange.com/q/307647/347985). Since our bots depend on OpenID in order to login to chat, we had to reverse engineer the new login.
 
@@ -10,7 +15,7 @@ We'll need to store some of the cookies we receive when logging in. In our case,
 ## Step 1: Get the login form
 Every site in the Stack Exchange network (except stackexchange.com itself - we'll discuss that later) should now have this new login form located at `/users/login`:
 
-![login screen](https://camo.githubusercontent.com/ddfe5031e6b1ab0a95c2f98193cb1e215f5b09b7/68747470733a2f2f692e737461636b2e696d6775722e636f6d2f78707a6b4b2e706e67)
+![login screen]({{ site.baseurl }}/images/2018-07-13-replacing-openid/login.png)
 
 Along with the fields for email and password, it has a hidden field called `fkey`, which is filled with a server generated value.
 We need to post this key along with the credentials. That's why we have to do a `GET` request to `/users/login` first and read the `fkey`:
