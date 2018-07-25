@@ -5,15 +5,15 @@ date: 2018-07-23 3:30:00 +0000
 comments: false
 ---
 
-Bots, no matter how robust they are, are prone to errors and malfunctions. There are chances where a bot can go rogue by sending numerous chat messages at an instant or adding multiple automatic flags on the same post. It does not matter if we are a RO, or a bot developer, or a regular user of the room, we all need to be geared up for these emergency situations. 
+Bots, no matter how robust they are, are prone to errors and malfunctions. There's a chance that a bot can go rogue by sending multiple chat messages at once, or adding multiple automatic flags on the same post. It does not matter if we are a RO, or a bot developer, or a regular user of the room, we all need to be geared up for these emergency situations. 
 
 ### Does the situation warrant any action?
 
 First, you must **decide whether action really needs to be taken**:
 
- - Are the reports all (or nearly all) unhelpful or redundant, such as being false-positives or duplicates?  If the reports are useful, they're *probably* OK.
- - Does the bot appear to have a developer working on it at the moment?  If someone's developing, the report spam is probably just a bug or a test, and the developer likely knows about it and is working to fix it.
- - Is the bot posting a *truly* large volume of reports, such that chatting and interacting other bots becomes difficult?
+- Are the reports all (or nearly all) unhelpful or redundant, such as being false-positives or duplicates?  If the reports are useful, they're *probably* OK.
+- Does the bot appear to have a developer working on it at the moment?  If someone's developing, the report spam is probably just a bug or a test, and the developer likely knows about it and is working to fix it.
+- Is the bot posting a *truly* large volume of reports, such that chatting and interacting other bots becomes difficult?
   - Posting the same message 3 times in a row (like [Smokey's "conflicting feedback" reports](https://chat.stackexchange.com/transcript/11540?m=43420837#43420837)) does not require drastic action; it's just a minor glitch that *maybe* is worth talking to the bot developer or filing a GH issue over.
   - Posting the same message 30 times in a row or reporting nearly every post on the site makes chatting and interacting with other bots difficult, and requires intervention.
 
