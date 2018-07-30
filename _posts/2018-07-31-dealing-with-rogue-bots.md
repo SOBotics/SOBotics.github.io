@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Malfunctioning bots and how we deal with them"
-date: 2018-07-26 3:30:00 +0000
+date: 2018-07-31 3:30:00 +0000
 comments: false
 ---
 
