@@ -5,7 +5,7 @@ date: 2018-08-19 3:30:00 +0000
 comments: false
 ---
   
-[Boson](https://github.com/SOBotics/Boson/settings), as described by the project, is both a framework to create any general purpose tracking bot for Stack Exchange, and a tracking bot built on top of the framework to report content that matches a given set of filters. It can be configured to report to various rooms in several formats. Though it sounds simple enough, the journey of designing an all purpose generic bot wasn't that easy. 
+[Boson](https://github.com/SOBotics/Boson), as described by the project, is both a framework to create any general purpose tracking bot for Stack Exchange, and a tracking bot built on top of the framework to report content that matches a given set of filters. It can be configured to report to various rooms in several formats. Though it sounds simple enough, the journey of designing an all purpose generic bot wasn't that easy. 
   
 ### Initial talks, where did we get the idea from?  
   
