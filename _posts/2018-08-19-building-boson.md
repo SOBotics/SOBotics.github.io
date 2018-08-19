@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notes from the SOBotics development team - Building Boson"
+title: "Notes from the SOBotics war room - Building Boson"
 date: 2018-08-19 3:30:00 +0000
 comments: false
 ---
