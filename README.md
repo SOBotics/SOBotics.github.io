@@ -1,1 +1,1 @@
-SOBotics Blog, coming soon
+SOBotics Blog, see https://blog.sobotics.org/
