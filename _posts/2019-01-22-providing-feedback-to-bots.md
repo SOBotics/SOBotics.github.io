@@ -7,7 +7,7 @@ comments: false
 
 ### Why do we need to feedback to bots? 
 
-We send feedback to the bots for us to collect some statistics and to improve the filters. Few of the bots are built on ML and hence they need feedback to improve. 
+We send feedback to the bots for us to know which all reports have already been handled. We also collect some statistics and  improve the filters based on this feedback. Few of the bots are built on ML and hence they need feedback to improve. 
 
 The continual improvement of the bots is one way to see how your feedback has affected the bot. Soon we are planning to utilize SOPlotics to plot nice graphs and figures for the same. 
 
