@@ -7,9 +7,9 @@ comments: false
 
 ### Why do we need to feedback to bots? 
 
-We send feedback to the bots for us to know which all reports have already been handled. We also collect some statistics and  improve the filters based on this feedback. Few of the bots are built on ML and hence they need feedback to improve. 
+We send feedback to the bots to let us know which all reports have already been handled. We also collect some statistics and improve the filters based on this feedback. Some of the bots are built on ML and hence they need feedback to improve.
 
-The continual improvement of the bots is one way to see how your feedback has affected the bot. Soon we are planning to utilize SOPlotics to plot nice graphs and figures for the same. 
+The continuous improvement of the bots is one way to see how your feedback has affected the bot. We are also planning to start using SOPlotics to generate graphs and visualisations of this.
 
 The bots do log these data. Some bots, like Guttenberg, send the data to a dashboard, like CopyPastor, which stores the data on its behalf. 
 
@@ -22,7 +22,9 @@ The bots do log these data. Some bots, like Guttenberg, send the data to a dashb
  - Natty posts possible non-answers and takes `tp`, `fp` and `ne` as feedback. See [How do I interact with Natty?](https://natty.sobotics.org/interacting). 
  - SOCVFinder posts possible duplicate questions and takes `k` or `f` as feedback. 
 
-Additionally, our guest, SmokeDetector, posts possible spam or rude or abusive posts, and it takes `tp` (`k`, `v`), `fp` (`f`) or `naa` (`n`) as feedback via replying to its report messages.
+Additionally, our guest, SmokeDetector, posts possible spam or rude or abusive posts, and it takes `tp` (`k`, `v`), `fp` (`f`) or `naa` (`n`) as feedback via replying to its report messages. See [Feedback Guidance on the Charcoal website](https://charcoal-se.org/smokey/Feedback-Guidance).
+                                                                                                                                                                                               
+
 
 There are some bots which do not take feedback, but can be replied to. These include: 
 
