@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why and how do we provide feedback to our bots?"
-date: 2019-01-22 7:30:00 +0000
+date: 2019-01-27 7:30:00 +0000
 comments: false
 ---
 
