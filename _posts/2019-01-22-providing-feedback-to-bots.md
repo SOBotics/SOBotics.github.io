@@ -27,10 +27,17 @@ The bots do log this data. Some bots, like Guttenberg, send the data to a dashbo
 Additionally, our guest, SmokeDetector, posts possible spam or rude/abusive posts, and it takes `tp` (`k`, `v`), `fp` (`f`) or `naa` (`n`), among others, as feedback via replying to its report messages. See [Feedback Guidance on the Charcoal website](https://charcoal-se.org/smokey/Feedback-Guidance).
                                                                                                                                                                                                
 
-
 There are some bots which do not take feedback, but can be replied to. These include: 
 
  - GenericBot tracks the posts you have flagged and reports edits to them. It takes an `untrack` as a reply command to stop tracking that post. 
  - Notepad pings you back as a reminder, and takes a snooze value as a reply. 
  - OpenReports lists the reports of Natty and Guttenberg, and takes an `ignore` as a reply command to not show you the same reports again.  
  - TagWikiEditMonitor reports tag wiki edits and takes a `tp socvr` as a reply and then posts the same message in SOCVR.
+
+### When should we take action on a particular report and provide feedback to the bots? 
+
+We should be providing feedback to the bots whenever we are taking any action on a particular report. Action on a particular report implies the acts like flagging, commenting, or rolling back certain edits, on that particular Stack Overflow post. Keep in mind that you necessarily don't have to act on each and every report that is presented to you in chat. The bot reports are just a reminder that the bot has detected something incorrect in that particular post, which may or might not warrant an action. 
+
+If you are not knowledgeable enough to judge that particular report, feel free to leave it to the others in the room. The reports can always wait, and none of the reports are urgent, or require immediate attention. Whenever you are not sure of what action to take on a post, and want to learn about the rules governing it, do make sure that you ask others in the chatroom.
+ 
+ In all the cases, we are using Meta Stack Exchange and Meta Stack Overflow as our reference rule book. Do adhere to the policies described there whenever you are taking any action on a Stack Overflow post, and follow the appropriate guidelines described above while providing feedback to the bot. 
