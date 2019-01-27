@@ -36,8 +36,9 @@ There are some bots which do not take feedback, but can be replied to. These inc
 
 ### When should we take action on a particular report and provide feedback to the bots? 
 
-We should be providing feedback to the bots whenever we are taking any action on a particular report. Action on a particular report implies the acts like flagging, commenting, or rolling back certain edits, on that particular Stack Overflow post. Keep in mind that you necessarily don't have to act on each and every report that is presented to you in chat. The bot reports are just a reminder that the bot has detected something incorrect in that particular post, which may or might not warrant an action. 
+We should be providing feedback to the bots whenever we take any action on a particular report. Action on a particular report means making actions such as flagging, commenting, or rolling back certain edits, on that particular Stack Overflow post. Keep in mind that you don't necessarily have to act on each and every report that is presented to you in chat. The bot reports are just a reminder that the bot has detected something in that particular post, which may or may not warrant action. 
 
-If you are not knowledgeable enough to judge that particular report, feel free to leave it to the others in the room. The reports can always wait, and none of the reports are urgent, or require immediate attention. Whenever you are not sure of what action to take on a post, and want to learn about the rules governing it, do make sure that you ask others in the chatroom.
+If you are not knowledgeable enough to judge that particular report, feel free to leave it to the others in the room. The reports can always wait, and none of the reports are urgent or require immediate attention. Whenever you are not sure of what action to take on a post, and want to learn about the rules governing it, do make sure that you ask others in the chatroom.
  
- In all the cases, we are using Meta Stack Exchange and Meta Stack Overflow as our reference rule book. Do adhere to the policies described there whenever you are taking any action on a Stack Overflow post, and follow the appropriate guidelines described above while providing feedback to the bot. 
+ In all cases, we are using Meta Stack Exchange and Meta Stack Overflow as our reference rule book. Please adhere to the policies described there whenever you take any action on a Stack Overflow post, and follow the appropriate guidelines described above while providing feedback to the bot.
+ 
