@@ -5,10 +5,13 @@ date: 2019-08-20
 comments: true
 ---
 
-If you are a regular or even visited any of the Meta sites on the Stack Exchange Network, Shog9 must be no alien to you.
-He works as a [Community Manager at Stack Overflow](https://meta.stackexchange.com/q/99338) and is the ["closest ultimate authority"](https://meta.stackexchange.com/a/121542) on the Stack Exchange sites. 
-Shog9 has been very helpful to SOBotics since we started, providing us with ideas during our infancy, making sure that we don't overstep our limits and even assisting us to draft some of the canned comments that we still post on Non-Answers. 
-We managed to catch him during his free time, and conducted an impromptu interview: (We would like to thank Shog9 for sharing his thoughts and ideas with us, and hope to work on some of the stuff that he mentions.)
+If you are a regular of, or have even visited, any of the Meta sites on the Stack Exchange network, Shog9 will be no stranger to you.  
+He works as a [Community Manager at Stack Overflow](https://meta.stackexchange.com/q/99338), and has done so for many years.
+Shog9 has been very helpful to SOBotics since we started, including providing us with ideas during our infancy, making sure we don't overstep our limits, and even assisting us to draft some of the canned comments that we still post on Non-Answers. 
+We managed to catch him during his free time, and conducted an impromptu interview, which can be found below. We would like to thank Shog9 for sharing his thoughts and ideas with us, and we hope to soon work on some of the stuff that he mentions.
+
+
+-----
 
 > **SOBotics**: *Hello, thank you for taking time out of your busy schedule! What is your general opinion on using the Stack Exchange API to build robots?* 
 
