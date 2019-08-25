@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Candidly speaking with Shog9"
-date: 2019-08-20
+date: 2019-08-25
 comments: true
 ---
 
