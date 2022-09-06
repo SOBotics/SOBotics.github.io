@@ -4,7 +4,7 @@ name: SOBotics Blog
 description: Making Stack Overflow a better place for all
 
 # url is currently only used only for the RSS feed in feed.xml
-url: http://blog.sobotics.org
+url: https://blog.sobotics.org
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
