@@ -59,6 +59,6 @@ Another aspect of user friendliness is that once the user has entered the requir
   
 Boson is still in a very conceptual state, and most of the work is still on the drawing table.  There are lot more challenges (including the API quota) which we would be facing once it's released for general use. We have listed some of these problems and are still looking out for other potential problems. 
 
-As of now, Higgs is [ready to be used](http://blog.sobotics.org/2018/07/connecting-to-higgs) and  Boson is partially ready. The APIs are yet to be formulated, and will soon be ready.  
+As of now, Higgs is [ready to be used](https://blog.sobotics.org/2018/07/connecting-to-higgs) and  Boson is partially ready. The APIs are yet to be formulated, and will soon be ready.
   
 All in all, work has begun on the entire project and is progressing at an active pace. We still need help and advice on it,  as well as ideas about any other data filters which would be useful to the project. Please [drop into chat and have a talk with us](https://chat.stackoverflow.com/rooms/111347/sobotics), and together, let's make Stack Exchange a nicer place for all!
